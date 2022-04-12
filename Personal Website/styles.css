@@ -1,0 +1,293 @@
+/* Color Pallette colors
+White: FCF8EC
+Light Blue: D0E8F2
+Dark Blue: 79A3B1
+Darkest Blue: 456268 */
+body {
+  background-color: #8bc7ff;
+}
+
+video {
+
+}
+
+.a4CarouselItem{
+object-fit: cover;
+  width: auto;
+  height: 22rem;
+}
+.finalProjectVideo{
+width: 100%;
+height: auto;
+}
+.atk302Video{
+  width: 75rem;
+  padding: 5rem 0;
+}
+.skillsVideo{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navbarWill {
+  background-color: rgb(0, 0, 0, .75);
+  padding: .5rem 0;
+}
+
+.landingPage {
+  background: #8bc7ff;
+  margin-top: 3rem;
+}
+
+.mainPage {
+  width: 100%;
+  background: #8bc7ff;
+}
+
+.nameText {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 23.5%;
+  font-size: 10vw;
+  z-index: 4;
+}
+
+.titleText {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 35%;
+  font-size: 3vw;
+  z-index: 4;
+}
+
+.handText {
+  margin-left: 25%;
+  margin-top: 17%;
+  font-size: 2vw;
+  z-index: 4;
+}
+
+.mountainImage {
+  margin-top: 25%;
+  z-index: 1;
+}
+
+.cloudImage1 {
+  width: 10%;
+  margin-top: 23%;
+  margin-left: 15%;
+  z-index: 3;
+}
+
+.cloudImage2 {
+  width: 10%;
+  margin-top: 27%;
+  margin-left: 75%;
+  z-index: 0;
+}
+
+.aboutMe {
+  position: relative;
+  z-index: 2;
+  background-color: #14909f;
+  height: 100%;
+  padding: 5rem 0;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.aboutMeImage {
+  width: 70%;
+  height: auto;
+  margin-bottom: 2rem;
+  border-radius: 100%;
+  border: .25em solid black;
+}
+
+.aboutMeHeading {
+  font-size: 3rem;
+}
+
+.aboutMeText {
+  font-size: 1.65rem;
+}
+
+.skillSection {
+  height: 100%;
+  padding: 2.5rem 0;
+  background-color: #8bc7ff;
+}
+
+.skillHeading {
+  font-size: 2.75rem;
+  margin-top: 3rem;
+}
+
+.skillButton {
+  position: relative;
+  background: #456268;
+  height: 13rem;
+  width: 13rem;
+  border-radius: .5rem;
+  float: left;
+  margin: 2rem .5rem;
+  overflow: hidden;
+  border: .5rem solid white;
+}
+
+.greenBorder {
+  border: .5rem solid;
+  border-color: #00b712;
+}
+
+.orangeBorder {
+  border: .5rem solid;
+  border-color: #e58f44;
+}
+
+.yellowBorder {
+  border: .5rem solid;
+  border-color: #e5e044;
+}
+
+.redBorder {
+  border: .5rem solid;
+  border-color: #e5444a;
+}
+
+.skillButton:hover .skillScore {
+  visibility: visible;
+}
+
+.skillsText {
+  color: #FCF8EC;
+  text-shadow: -1px 0 #222123, 0 1px #222123, 1px 0 #222123, 0 -1px #222123;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillOverlay {
+  background-color: #456268;
+  z-index: 9;
+  margin: 0;
+  opacity: 1;
+  border-radius: 0;
+  position: absolute;
+  top: 10rem;
+  opacity: .35;
+  visibility: hidden;
+}
+
+.skillButton p {
+  height: 100%;
+  font-size: 2rem;
+  padding-top: 35%;
+  line-height: 1.5rem;
+}
+
+.skillScore {
+  font-size: 1.1rem;
+  visibility: hidden;
+}
+
+.aboutSkillText {
+  color: white;
+  margin: 2rem 1rem;
+}
+
+.aboutSkillText p {
+  font-size: 2rem;
+}
+
+
+
+.exampleSquare {
+  position: relative;
+  margin: 1rem auto;
+  background: rgb(255, 250, 250, .25);
+  height: 8rem;
+  width: 8rem;
+  border-radius: .5rem;
+}
+
+.exampleSquare h3 {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exampleText {
+  font-size: .75rem;
+}
+.projectBackground {
+  background-color: #14909f;
+  padding-top: 2.5rem;
+}
+
+.projectHeader {
+  margin-top: 3rem;
+}
+.projectLayout {}
+
+.projectContainer {
+height: 15rem;
+width: auto;
+}
+
+.projectHolder {
+
+  padding-bottom: 9rem;
+}
+
+.projectImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+
+}
+
+.footerBackground {
+  background-color: #D0E8F2;
+}
+/* Project Page Stuff */
+.projectPageImage{
+ width: 95%;
+ height: auto;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>William Andrews | Web Developer</title>
+</head>
+
+<header class="fixed-top">
+  <div class="fluid-container navbarWill">
+
+    <!-- ICON -->
+    <!-- <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a> -->
+
+    <!-- Nav Links -->
+    <div class="row">
+      <ul class="nav col-6 justify-content-left px-2 ">
+
+        <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+        <li><a href="#aboutMe" class="nav-link px-2 text-white">About</a></li>
+        <li><a href="#skills" class="nav-link px-2 text-white">Skills</a></li>
+        <li><a href="#projects" class="nav-link px-2 text-white">Projects</a></li>
+        <li><a href="#contact" class="nav-link px-2 text-white">Contact</a></li>
+
+      </ul>
+      <div class=" nav-link col-6 text-white justify-content-right px-2">
+      This Website is a Work In Progress *be gentle
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+</header>
+
+<body>
+
+
+
+
+  <!-- Navbar that moves when you scroll, might implement another page or two, and add a way to access them from here-->
+  <!-- <nav class="navbar navbar-light  bg-transparent" aria-label="Navigation Bar">
+    <div class="container-fluid">
+
+      <img src="images/sun.png" class="logoImage my-2 mx-2 navbar-brand" href="index.html">
+
+      <a class="nameContainer me-auto ps-2 navbar-brand" href="#">Will Andrews</a>
+    </div>
+  </nav> -->
+
+  <div class="container-fluid">
+
+
+
+    <!-- landing page -->
+    <div class="container-fluid landingPage">
+      <div class="d-flex flex-row mainPage">
+        <div class="textWrapper col-12">
+          <div class="position-relative">
+            <h1 class="nameText position-absolute text-nowrap">Will Andrews</h1>
+            <h3 class="position-absolute  titleText">Programer & Designer</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <h1 class="handText position-absolute">Code</h1>
+        </div>
+
+        <div class="col-6">
+          <h1 class="handText position-absolute">Design</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="d-flex px-0">
+        <img class="position-absolute mountainImage img-fluid landscapeImage" src="images/mountain.png" alt="">
+      </div>
+      <div class="row">
+        <div class="d-flex">
+          <img class="position-absolute cloudImage1 img-fluid landscapeImage" src="images/cloud.png" alt="">
+        </div>
+      </div>
+      <div class="flex-row">
+        <div class="d-flex">
+          <img class="position-absolute cloudImage2 img-fluid landscapeImage" src="images/cloud.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 px-0">
+        <img class=" img-fluid" src="images/HandsRaised.png" alt="">
+      </div>
+    </div>
+
+
+
+
+    <!-- About me section -->
+    <div class="container-fluid px-0">
+      <div class="row aboutMe " id="aboutMe">
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <img class="img-fluid aboutMeImage " src="images/profilePic.png" alt="">
+        </div>
+
+        <div class="text-center col-lg-6 col-md-12 col-sm-12  px-md-5 my-md-auto aboutMeTextContainer">
+          <h2 class="aboutMeHeading">Hi, I'm Will. Nice to meet you!</h2>
+          <p class="aboutMeText">I am an avid coder, designer, and creator.
+            I am knowledgeable in 5 computing languages and have the drive to learn as much as I can.
+            I am naturally goal-driven, people-focused, and always looking to improve.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+
+    <div class=" container-fluid px-0">
+
+
+      <div class="row skillSection" id="skills">
+        <div class="col-9  text-center ">
+          <h2 class="skillHeading ">Skills</h2>
+          <!-- HTML BUTTON -->
+
+          <div class="skillButton greenBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/html.webm" type="video/webm">
+              <source src="mp4/html.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText">
+              <p>HTML <br /> <span class="skillScore" id="html">10/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- CSS BUTTON -->
+          <div class="skillButton greenBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/css.webm" type="video/webm">
+              <source src="mp4/css.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText">
+              <p>CSS <br /> <span class="skillScore" id="css">9/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- Javascript BUTTON -->
+          <div class="skillButton orangeBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/javascript.webm" type="video/webm">
+              <source src="mp4/javascript.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText">
+              <p>Javascript <br /> <span class="skillScore" id="javascript">6/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- Bootstrap BUTTON -->
+          <div class="skillButton orangeBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/bootstrap.webm" type="video/webm">
+              <source src="mp4/bootstrap.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText ">
+              <p>Bootstrap<br /> <span class="skillScore" id="bootstrap">6/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- .NET BUTTON -->
+          <div class="skillButton redBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/net.webm" type="video/webm">
+              <source src="mp4/net.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText  ">
+              <p>.Net<br /> <span class="skillScore" id='net'>2/10</span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- Java BUTTON -->
+          <div class="skillButton yellowBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/java.webm" type="video/webm">
+              <source src="mp4/java.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText  ">
+              <p>Java<br /> <span class="skillScore" id="java">4/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- Python BUTTON -->
+          <div class="skillButton redBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/python.webm" type="video/webm">
+              <source src="mp4/python.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText ">
+              <p>Python<br /> <span class="skillScore" id="python">1/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- Max/MSP BUTTON -->
+          <div class="skillButton yellowBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/max.webm" type="video/webm">
+              <source src="mp4/max.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText ">
+              <p>MAX/MSP<br /> <span class="skillScore" id="max">3/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- XD BUTTON -->
+          <div class="skillButton yellowBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/xd.webm" type="video/webm">
+              <source src="mp4/xd.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText  ">
+              <p>Adobe XD<br /> <span class="skillScore" id="xd">5/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- Premiere BUTTON -->
+          <div class="skillButton greenBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/premiere.webm" type="video/webm">
+              <source src="mp4/premiere.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText ">
+              <p>Adobe Premiere<br /> <span class="skillScore" id="premiere">8/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- Photoshop BUTTON -->
+          <div class="skillButton orangeBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/photoshop.webm" type="video/webm">
+              <source src="mp4/photoshop.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText ">
+              <p>Adobe Photoshop<br /> <span class="skillScore" id="photoshop">6/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- Audition BUTTON -->
+          <div class="skillButton greenBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/audition.webm" type="video/webm">
+              <source src="mp4/audition.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText ">
+              <p>Adobe Audition<br /> <span class="skillScore" id="audition">8/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- Unity BUTTON -->
+          <div class="skillButton orangeBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/unity.webm" type="video/webm">
+              <source src="mp4/unity.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText">
+              <p>Unity Engine<br /> <span class="skillScore" id="unity">6/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- Blender BUTTON -->
+          <div class="skillButton yellowBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/blender.webm" type="video/webm">
+              <source src="mp4/blender.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText ">
+              <p>Blender 3D<br /> <span class="skillScore" id="blender">4/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+          <!-- FL Studio BUTTON -->
+          <div class="skillButton greenBorder">
+            <video loop muted playsinline class="skillsVideo">
+              <source src="webm/flstudio.webm" type="video/webm">
+              <source src="mp4/flstudio.mp4" type="video/mp4">
+            </video>
+            <div class="skillsText ">
+              <p>FL Studio<br /> <span class="skillScore" id="fl">9/10 </span> </p>
+            </div>
+            <div class="skillButton skillOverlay">
+
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="col-2 text-center">
+          <div class="row">
+            <h2 class="skillHeading ">Border Color Key</h2>
+          </div>
+          <div class="row ">
+            <div class="exampleSquare greenBorder">
+              <h3>Highly Proficient</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="exampleSquare orangeBorder">
+              <h3>Proficient</h3>
+            </div>
+          </div>
+          <div class="row ">
+            <div class=" exampleSquare yellowBorder">
+              <h3>Learning</h3>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="exampleSquare redBorder">
+              <h3>Want to Learn</h3>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+  <!-- Project Section -->
+  <div class="container-fluid" id="projects">
+    <div class="row projectBackground ">
+      <div class="col-12 text-center ">
+        <h1 class="projectHeader">Recent Work</h1>
+      </div>
+    </div>
+    <!-- look into nesting this? -->
+    <div class="row projectBackground justify-content-center projectHolder">
+
+      <div class="col-2 px-0 mx-4">
+        <div class="projectContainer">
+          <a href="ISU.html">
+            <img src="images/ISULogo.png" class="projectImage" alt="">
+          </a>
+        </div>
+
+
+      </div>
+
+      <div class="col-2 px-0 mx-4">
+        <div class=" projectContainer">
+          <img src="images\CyberDefense.PNG" class="projectImage" alt="">
+        </div>
+
+      </div>
+
+      <div class="col-2 px-0 mx-4 ">
+        <div class="projectContainer">
+          <img src="images\Website-Building-Landscape.jpg" class="projectImage" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container-fluid footerBackground">
+    <footer class=" row py-5 border-top ">
+
+      <div class="col-12" id="contact">
+        <ul class="nav justify-content-center">
+          <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/william-andrews-4b0891160/">LinkedIn</a></li>
+          <li class="ms-3"><a class="text-muted" href="https://github.com/WillAndrews006">Github</a></li>
+          <li class="ms-3"><a class="text-muted">WillAndrews006@gmail.com
+          .</a></li>
+        </ul>
+      </div>
+      <div class="col-12 pt-3">
+        <div class="text-muted text-center">© 2022 William Andrews</div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+
+<!-- <footer class"py-3 my-4">
+
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">LinkedIn</a></li>
+  </ul>
+
+  <p class="text-center text-muted">© 2021 Will Andrews</p>
+
+</footer> -->
+
+</html>
